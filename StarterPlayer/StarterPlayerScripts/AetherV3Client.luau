@@ -1,5 +1,3 @@
--- AETHER V3 | StarterPlayer > StarterPlayerScripts > AetherV3Client (LocalScript)
--- New controls and visual effects. Runs ALONGSIDE the original AbilityClient.
 local Players = game:GetService("Players")
 local UIS = game:GetService("UserInputService")
 local TweenService = game:GetService("TweenService")
@@ -56,7 +54,6 @@ local function send(name)
 	end
 end
 
--- Compact second action bar. The original six-slot HUD stays unchanged.
 local oldGui = player:WaitForChild("PlayerGui"):FindFirstChild("AetherV3HUD")
 if oldGui then oldGui:Destroy() end
 local gui = Instance.new("ScreenGui")
@@ -194,7 +191,6 @@ end
 player.CharacterAdded:Connect(onCharacter)
 if player.Character then onCharacter(player.Character) end
 
--- JumpRequest is better than InputBegan: normal first jump still works.
 local lastJumpRequest = 0
 UIS.JumpRequest:Connect(function()
 	local now = os.clock()
@@ -211,7 +207,6 @@ feedback.OnClientEvent:Connect(function(name, duration, endsAt)
 	durationByAbility[name] = math.max(duration, 0.01)
 	if name == "AirJump" then
 		airJumpUsed = true
-		-- Responsive prediction AFTER server approval, not before.
 		local hum, root = getCharacterParts()
 		if root then
 			local v = root.AssemblyLinearVelocity
@@ -220,7 +215,6 @@ feedback.OnClientEvent:Connect(function(name, duration, endsAt)
 	end
 end)
 
--- Geometry helpers: procedural effects need no external assets or upload IDs.
 local function createPart(shape, size, frame, color, alpha)
 	local p = Instance.new("Part")
 	p.Name = "AetherV3FX"
