@@ -65,7 +65,7 @@ For more detailed installation and demo guidance, see [SETUP.md](docs/SETUP.md).
 
 ## Status and attribution
 
-AETHER is a **personal learning and technical showcase project**, developed through AI-assisted scripting and user-led iteration in Roblox Studio. It is **not previous client work**, and the files are provided as a demonstrative prototype. The source was extracted from the uploaded `.rbxl` place and organized for GitHub. No live gameplay video has been verified for this repository yet.
+AETHER is a **personal learning and technical showcase project**, developed through scripting and user-led iteration in Roblox Studio. It is **not previous client work**, and the files are provided as a demonstrative prototype. The source was extracted from the uploaded `.rbxl` place and organized for GitHub. No live gameplay video has been verified for this repository yet.
 
 ## Commissions and collaboration
 
