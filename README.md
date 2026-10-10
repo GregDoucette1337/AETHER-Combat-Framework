@@ -8,7 +8,7 @@
 
 <div align="center">
 
-**[▶ Watch the 40-second gameplay video](assets/video/AETHER-Combat-Playthrough-Web.mp4)**
+<a href="assets/video/AETHER-Combat-Playthrough-Web.mp4"><strong>▶ Watch the 40-second gameplay video</strong></a>
 
 <a href="assets/video/AETHER-Combat-Playthrough-Web.mp4">
   <img src="assets/AETHER-gameplay-preview.gif" alt="AETHER combat gameplay: movement abilities, training arena and effects" width="750" />
