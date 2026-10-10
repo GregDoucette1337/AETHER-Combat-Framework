@@ -1,5 +1,3 @@
--- Place as a LocalScript named AbilityClient in StarterPlayer > StarterPlayerScripts.
--- Builds UI and local visual effects. Damage is handled on the server.
 local Players = game:GetService("Players")
 local UIS = game:GetService("UserInputService")
 local TweenService = game:GetService("TweenService")
@@ -272,7 +270,6 @@ RunService.RenderStepped:Connect(function()
 	end
 end)
 
--- Camera effect after Roblox's default camera update. Avoid permanently changing camera offsets.
 RunService:BindToRenderStep("AetherShake", Enum.RenderPriority.Camera.Value + 1, function()
 	if os.clock() >= shakeUntil then return end
 	local camera = workspace.CurrentCamera
