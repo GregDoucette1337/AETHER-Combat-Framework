@@ -6,19 +6,19 @@
 
 ### Gameplay showcase
 
-**[▶ Watch the complete 48-second gameplay recording (MP4)](assets/video/AETHER-Combat-Playthrough-Web.mp4)** · [Direct playable video link](https://raw.githubusercontent.com/GregDoucette1337/AETHER-Combat-Framework/main/assets/video/AETHER-Combat-Playthrough-Web.mp4)
+**[▶ Watch the new 40-second gameplay recording (MP4)](assets/video/AETHER-Combat-Playthrough-Web.mp4)** · [Direct playable video link](https://raw.githubusercontent.com/GregDoucette1337/AETHER-Combat-Framework/main/assets/video/AETHER-Combat-Playthrough-Web.mp4)
 
-*Actual Roblox Studio footage, cropped to the gameplay viewport. The linked version is compressed for convenient viewing.*
+*Updated 10 October 2026: actual Roblox Studio footage from the new 40-second playthrough, cropped to focus on gameplay. The linked video is compressed for convenient viewing. The animated preview is a short excerpt from this recording.*
 
 ![AETHER combat in action: energy effects and training targets](assets/AETHER-gameplay-preview.gif)
 
 ### Screenshots from the playthrough
 
-| Neon training arena & HUD | Energy abilities |
+| Neon training arena & HUD | Energy burst |
 | :---: | :---: |
-| ![Neon arena and combat UI](assets/screenshots/01_arena_and_hud.jpg) | ![Purple combat ability in action](assets/screenshots/02_energy_burst.jpg) |
-| **Impact sequence** | **Close-range effects** |
-| ![Bright impact effect near the training targets](assets/screenshots/03_meteor_impact.jpg) | ![Gameplay with purple effects and live HP bars](assets/screenshots/04_ability_effects.jpg) |
+| ![Neon arena and combat UI](assets/screenshots/01_arena_and_hud.jpg) | ![Cyan energy burst during combat](assets/screenshots/02_energy_burst.jpg) |
+| **Combat target engagement** | **Gameplay effects** |
+| ![Training target taking damage](assets/screenshots/03_meteor_impact.jpg) | ![Combat gameplay and live health bars](assets/screenshots/04_ability_effects.jpg) |
 
 [See another training-target screenshot](assets/screenshots/05_training_targets.jpg).
 
