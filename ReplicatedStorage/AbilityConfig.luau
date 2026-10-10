@@ -1,7 +1,5 @@
--- Place as a ModuleScript named AbilityConfig in ReplicatedStorage.
 local Config = {}
 
--- Keep PvP off for a safe portfolio/training demonstration.
 Config.AllowPvP = false
 
 Config.ArcSlash = {
