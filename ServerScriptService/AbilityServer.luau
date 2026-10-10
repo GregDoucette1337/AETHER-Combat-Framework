@@ -1,5 +1,3 @@
--- Place as a Script named AbilityServer in ServerScriptService.
--- The server owns cooldowns, target validation and damage.
 local Players = game:GetService("Players")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
@@ -26,7 +24,7 @@ local requestEvent = ensureRemote("RequestAbility")
 local effectsEvent = ensureRemote("AbilityEffects")
 local feedbackEvent = ensureRemote("AbilityFeedback")
 
-local cooldowns = {} -- [Player] = { ArcSlash = expiration, ThunderStrike = expiration }
+local cooldowns = {}
 
 local function getAliveCharacter(player)
 	local character = player.Character
@@ -84,7 +82,6 @@ end
 
 local function getGroundTarget(player, root, rawTarget)
 	if typeof(rawTarget) ~= "Vector3" then return nil end
-	-- Reject NaN/infinities and absurd coordinates; don't trust client mouse input.
 	for _, value in ipairs({rawTarget.X, rawTarget.Y, rawTarget.Z}) do
 		if value ~= value or math.abs(value) > 100000 then return nil end
 	end
@@ -133,7 +130,6 @@ requestEvent.OnServerEvent:Connect(function(player, abilityName, targetPosition)
 		feedbackEvent:FireClient(player, abilityName, ability.Cooldown)
 		effectsEvent:FireAllClients("ArcSlash", root.Position, forward)
 
-		-- Damage after the first sweep frames, never on the client.
 		task.delay(0.12, function()
 			local currentCharacter, _, currentRoot = getAliveCharacter(player)
 			if currentCharacter ~= character then return end
