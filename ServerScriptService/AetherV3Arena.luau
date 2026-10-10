@@ -1,6 +1,3 @@
--- AETHER V3 | ServerScriptService > AetherV3Arena (OPTIONAL Script)
--- Use on an empty-ish baseplate, or when you have NO existing DemoArena script.
--- Generates a neon arena, targets with live health bars, and a 2000 HP boss dummy.
 if workspace:FindFirstChild("AetherArena") then
 	warn("[AETHER V3] Existing AetherArena found. Skipping duplicate arena generation.")
 	return
