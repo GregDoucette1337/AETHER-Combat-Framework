@@ -1,6 +1,3 @@
--- OPTIONAL: Place as a Script named DemoArena in ServerScriptService.
--- Generates a showcase arena and respawning training dummies at runtime.
--- Recommended: use an empty Baseplate template and delete the original Baseplate and SpawnLocation.
 local Lighting = game:GetService("Lighting")
 
 if workspace:FindFirstChild("AetherArena") then return end
@@ -86,7 +83,6 @@ local function createTarget(x, z, index)
 	block("Core", Vector3.new(1.6, 1.5, 0.2), Vector3.new(x, 4.3, z + 0.91), violet, Enum.Material.Neon, model)
 	block("LeftArm", Vector3.new(1, 3.5, 1), Vector3.new(x - 2.5, 4, z), Color3.fromRGB(39, 56, 80), Enum.Material.Metal, model)
 	block("RightArm", Vector3.new(1, 3.5, 1), Vector3.new(x + 2.5, 4, z), Color3.fromRGB(39, 56, 80), Enum.Material.Metal, model)
-	-- Only allow the visible torso, head and body pieces to be queried for hits.
 	torso.CanQuery = true
 	head.CanQuery = true
 
