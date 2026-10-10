@@ -6,21 +6,42 @@
 
 ### Gameplay showcase
 
-**[▶ Watch the new 40-second gameplay recording (MP4)](assets/video/AETHER-Combat-Playthrough-Web.mp4)** · [Direct playable video link](https://raw.githubusercontent.com/GregDoucette1337/AETHER-Combat-Framework/main/assets/video/AETHER-Combat-Playthrough-Web.mp4)
+<div align="center">
 
-*Updated 10 October 2026: actual Roblox Studio footage from the new 40-second playthrough, cropped to focus on gameplay. The linked video is compressed for convenient viewing. The animated preview is a short excerpt from this recording.*
+**[▶ Watch the 40-second gameplay video](assets/video/AETHER-Combat-Playthrough-Web.mp4)**
 
-![AETHER combat in action: energy effects and training targets](assets/AETHER-gameplay-preview.gif)
+<a href="assets/video/AETHER-Combat-Playthrough-Web.mp4">
+  <img src="assets/AETHER-gameplay-preview.gif" alt="AETHER combat gameplay: movement abilities, training arena and effects" width="750" />
+</a>
+
+<sub>Click the animated preview to play the full recording. Recorded in Roblox Studio.</sub>
+
+</div>
 
 ### Screenshots from the playthrough
 
-| Neon training arena & HUD | Energy burst |
-| :---: | :---: |
-| ![Neon arena and combat UI](assets/screenshots/01_arena_and_hud.jpg) | ![Cyan energy burst during combat](assets/screenshots/02_energy_burst.jpg) |
-| **Combat target engagement** | **Gameplay effects** |
-| ![Training target taking damage](assets/screenshots/03_meteor_impact.jpg) | ![Combat gameplay and live health bars](assets/screenshots/04_ability_effects.jpg) |
+<table>
+<tr>
+  <td align="center" width="50%"><strong>Neon training arena &amp; HUD</strong></td>
+  <td align="center" width="50%"><strong>Energy burst</strong></td>
+</tr>
+<tr>
+  <td align="center"><img src="assets/screenshots/01_arena_and_hud.jpg" width="385" alt="Training arena with ability HUD" /></td>
+  <td align="center"><img src="assets/screenshots/02_energy_burst.jpg" width="385" alt="Cyan area effect during combat" /></td>
+</tr>
+<tr>
+  <td align="center"><strong>Combat target engagement</strong></td>
+  <td align="center"><strong>Gameplay effects</strong></td>
+</tr>
+<tr>
+  <td align="center"><img src="assets/screenshots/03_meteor_impact.jpg" width="385" alt="Character attacking training targets" /></td>
+  <td align="center"><img src="assets/screenshots/04_ability_effects.jpg" width="385" alt="Combat effects and target health bars" /></td>
+</tr>
+</table>
 
-[See another training-target screenshot](assets/screenshots/05_training_targets.jpg).
+<div align="center">
+  <a href="assets/screenshots/05_training_targets.jpg">View an additional training-target screenshot</a>
+</div>
 
 ## Systems showcased
 
