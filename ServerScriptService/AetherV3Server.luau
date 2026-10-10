@@ -1,6 +1,3 @@
--- AETHER V3 | ServerScriptService > AetherV3Server (Script)
--- Standalone expansion for existing AETHER V1 or V2.
--- All cooldowns, damage, destinations, and movement limits are server controlled.
 local Players = game:GetService("Players")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local Debris = game:GetService("Debris")
@@ -261,7 +258,6 @@ requests.OnServerEvent:Connect(function(player, name, payload)
 				if player.Character ~= character or not player.Parent then return end
 				for _, obj in ipairs(circleTargets(player, ground, cfg.Radius, cfg.MaxTargetsPerPulse)) do
 					damage(player, obj.hum, cfg.PulseDamage)
-					-- Only attempt pull on freely moving unanchored NPCs.
 					if not obj.root.Anchored and not Players:GetPlayerFromCharacter(obj.hum.Parent) then
 						local pull = flatUnit(ground - obj.root.Position)
 						if pull then obj.root.AssemblyLinearVelocity += pull * 18 end
