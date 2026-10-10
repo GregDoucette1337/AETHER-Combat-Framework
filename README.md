@@ -6,8 +6,21 @@
 
 ### Gameplay showcase
 
-🎬 **Video demonstration:** Recording pending. A real gameplay clip will be added here once captured from Roblox Studio.  
-🖼️ **Screenshots:** Coming soon — only actual gameplay screenshots will be published.
+**[▶ Watch the complete 48-second gameplay recording (MP4)](assets/video/AETHER-Combat-Playthrough-Web.mp4)** · [Direct playable video link](https://raw.githubusercontent.com/GregDoucette1337/AETHER-Combat-Framework/main/assets/video/AETHER-Combat-Playthrough-Web.mp4)
+
+*Actual Roblox Studio footage, cropped to the gameplay viewport. The linked version is compressed for convenient viewing.*
+
+![AETHER combat in action: energy effects and training targets](assets/AETHER-gameplay-preview.gif)
+
+### Screenshots from the playthrough
+
+| Neon training arena & HUD | Energy abilities |
+| :---: | :---: |
+| ![Neon arena and combat UI](assets/screenshots/01_arena_and_hud.jpg) | ![Purple combat ability in action](assets/screenshots/02_energy_burst.jpg) |
+| **Impact sequence** | **Close-range effects** |
+| ![Bright impact effect near the training targets](assets/screenshots/03_meteor_impact.jpg) | ![Gameplay with purple effects and live HP bars](assets/screenshots/04_ability_effects.jpg) |
+
+[See another training-target screenshot](assets/screenshots/05_training_targets.jpg).
 
 ## Systems showcased
 
@@ -65,7 +78,7 @@ For more detailed installation and demo guidance, see [SETUP.md](docs/SETUP.md).
 
 ## Status and attribution
 
-AETHER is a **personal learning and technical showcase project**, developed through scripting and user-led iteration in Roblox Studio. It is **not previous client work**, and the files are provided as a demonstrative prototype. The source was extracted from the uploaded `.rbxl` place and organized for GitHub. No live gameplay video has been verified for this repository yet.
+AETHER is a **personal learning and technical showcase project**, developed through scripting and user-led iteration in Roblox Studio. It is **not previous client work**, and the files are provided as a demonstrative prototype. The source was extracted from the uploaded `.rbxl` place and organized for GitHub. A gameplay recording captured from Roblox Studio is linked above, alongside screenshots extracted from that recording.
 
 ## Commissions and collaboration
 
